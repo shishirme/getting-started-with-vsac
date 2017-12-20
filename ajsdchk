@@ -1,3 +1,7 @@
+echo "My Page" > index.html
+git add index.html
+git commit -a -m "First pages commit"
+git push origin master
 Exception: STATUS_STACK_OVERFLOW at rip=7FFE5D9BCC38
 rax=0000000000001AA8 rbx=00000000006CB6F0 rcx=0000000180010018
 rdx=00000000006B2DD0 rsi=00000000006B2DD0 rdi=00000000FFFFB900
